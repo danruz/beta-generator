@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Andres Quintero</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1280">
+  <meta name="description" content="Generador de nombres Pacto Sabroso" />
+  <link rel="icon" href="img/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap');
+  </style>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DSYQCQLY34');
+  </script>
+</head>
+<body>
+  <div class="contenedor">
+    <div class="titulo">
+      <h1>Andres Quintero</h1>
+      <h2>Genera tu nombre.</h2>
+    </div>
+    <hr class="start">
+      <div id="imagen" width="1080" height="1080">
+        <h3 contenteditable="true" spellcheck="false"></h3>
+        <p class="voto">APOYA A</p>
+        <img class="logo" alt="Logo voto" src="img/logo.png">
+      </div> 
+         <!-- Lienzo oculto para convertir el div a imagen -->
+    <canvas id="canvas" style="display: none;"></canvas>
+    <hr class="end">
+    <div class="bBajar"><button id="boton-descarga">Descargar</button></div>
+    <!-- <h2>¡o toma un pantallazo y listo!</h2><br>  --> 
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
