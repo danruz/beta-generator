@@ -42,7 +42,7 @@
     const target = e ? this : document.querySelector('h3');;
     const text = target.textContent;
     if (text === '') {
-      target.innerHTML = split('TUNOMBRE');
+      target.innerHTML = split('Tunombre');
     }
   }
   function main(){
