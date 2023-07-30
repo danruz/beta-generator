@@ -33,7 +33,7 @@
   }
   function cleanup(e) {
     const text = this.textContent;
-    if (text == 'TUNOMBRE') {
+    if (text == 'Tunombre') {
       this.innerHTML = '';
       placeCaretAtEnd(this);
     }
