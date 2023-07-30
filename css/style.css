@@ -11,14 +11,6 @@
   table { border-collapse: collapse; border-spacing: 0; }
   td, th { padding: 0; }
 
-@font-face {
-  font-family: 'Hamburg';
-  font-style: normal;
-  font-weight: 500;
-  src: url('/fonts/Hamburg.otf') format('otf');
-  font-display: swap;
-}
-
 :root {
   --orange: #ff5923;
   --indigo: #105589;
@@ -36,12 +28,12 @@ body {
   color: #111;
 }
 h1 {
-  font-family: 'Hamburg';
+  font-family: 'Hamburg', sans-serif;
   font-weight: 900;
   display: inline-block;
 }
 h3 {
-  font-family: 'Hamburg';
+  font-family: 'Hamburg', sans-serif;
   font-weight: 900;
   display: inline-block;
 }
